@@ -58,11 +58,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Add_Author.cs">
+    <Compile Include="Author_form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Add_Author.Designer.cs">
-      <DependentUpon>Add_Author.cs</DependentUpon>
+    <Compile Include="Author_form.Designer.cs">
+      <DependentUpon>Author_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Publisher_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Publisher_form.Designer.cs">
+      <DependentUpon>Publisher_form.cs</DependentUpon>
     </Compile>
     <Compile Include="Author.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -75,6 +81,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book_form.Designer.cs">
+      <DependentUpon>Book_form.cs</DependentUpon>
     </Compile>
     <Compile Include="LibereryDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -101,11 +113,17 @@
     <Compile Include="Publisher.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Add_Author.resx">
-      <DependentUpon>Add_Author.cs</DependentUpon>
+    <EmbeddedResource Include="Author_form.resx">
+      <DependentUpon>Author_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Publisher_form.resx">
+      <DependentUpon>Publisher_form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book_form.resx">
+      <DependentUpon>Book_form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

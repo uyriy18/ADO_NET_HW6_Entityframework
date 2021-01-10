@@ -1,7 +1,7 @@
 ﻿
 namespace ADO_NET_HW6_Entityframework
 {
-    partial class Add_Author
+    partial class Author_form
     {
         /// <summary>
         /// Required designer variable.
@@ -89,7 +89,7 @@ namespace ADO_NET_HW6_Entityframework
             this.cancel_btn.UseVisualStyleBackColor = true;
             this.cancel_btn.Click += new System.EventHandler(this.cancel_btn_Click);
             // 
-            // Add_Author
+            // Author_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -100,8 +100,8 @@ namespace ADO_NET_HW6_Entityframework
             this.Controls.Add(this.firstname_txbx);
             this.Controls.Add(this.lastname_lbl);
             this.Controls.Add(this.firstname_lbl);
-            this.Name = "Add_Author";
-            this.Text = "Add_Author";
+            this.Name = "Author_form";
+            this.Text = "Author";
             this.ResumeLayout(false);
             this.PerformLayout();
 
